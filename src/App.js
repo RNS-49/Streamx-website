@@ -1,23 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import LatestRow from './Components/Categories/LatestRow';
+import SeriesRow from './Components/Categories/SeriesRow';
+import TopRatedRow from './Components/Categories/TopRatedRow';
+import Navbar from './Components/Navbar/Navbar';
+import AnimeShows from './Components/Categories/AnimeShows';
+import ActionRow from './Components/Categories/ActionRow';
+import RomanticRow from './Components/Categories/RomanticRow';
+import HorrorRow from './Components/Categories/HorrorRow';
+import GenreList from './Components/Categories/GenreList';
+import BottomBar from './Components/BottomBar/BottomBar';
+import { Route, Routes} from 'react-router-dom'
+import Subscription from './Components/OtherPages/Subscription'
+import LoginPage from './Components/OtherPages/LoginPage';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+
+
+      <Routes>
+        <Route path='/Subscription' element={<Subscription />} />
+         <Route path='/LoginPage' element={<LoginPage/>} />
+        <Route path='/' element={
+          <>
+            <Navbar />
+            <SeriesRow />
+            <LatestRow />
+            <TopRatedRow />
+            <ActionRow />
+            <AnimeShows />
+            <RomanticRow />
+            <HorrorRow />
+            <GenreList />
+            <BottomBar />
+          </>
+        } />
+
+      </Routes>
+
+
+
+
+
     </div>
   );
 }

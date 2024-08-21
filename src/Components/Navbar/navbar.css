@@ -1,0 +1,273 @@
+/*Navbar section*/
+
+.logo{
+width: 17%;
+}
+
+.nav-section{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-items{
+  color: white;
+  position: relative;
+  font-weight: bold;
+  margin-left: 70px;
+  padding-top: 10px;
+
+}
+
+.drop-menu{
+  font-weight: bold;
+  color: white;
+  position: relative;
+  margin-left: 30px;
+  padding-top: 10px;
+
+}
+.dropdown-menu{
+  position: absolute;
+  margin-left: 700px;
+ 
+}
+.nav-btn{
+  position: relative;
+   left: 200px;
+}
+.btn-dark{
+  margin-right: 6px;
+}
+
+
+/*Search bar section*/
+
+
+.search-bar{
+  
+  background-size:cover; /* Ensures the background image covers the entire search bar */
+  background-position: center; /* Centers the background image */
+  display: flex;
+  height: 600px;
+  width: 100%;
+  align-items: center; /* Vertically center the input field */
+  justify-content: center; /* Horizontally center the input field */
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+  margin-top: -118px;
+  
+  }
+
+
+.search-head{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+}
+.search-head-sub{
+  color:white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+#search {
+  align-items: center;
+  justify-content: center;
+  width: 1000px; /* Adjust as needed */
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 20px;
+  /* Optional: Add background color, border, etc. for better styling */
+  background-color: rgba(255, 255, 255, 0.8);
+
+  
+}
+
+
+
+/* Mobile optimization */
+
+@media(max-width:320px){
+  
+.logo{
+  width: 50%;
+  }
+  
+  .nav-section{
+    background-color:black;
+    margin-top: -8px;
+    padding-bottom: 2px;
+  }
+  
+  .nav-items{
+    color: white;
+    position: relative;
+    margin-left: 1px;
+    padding-top: 2px;
+  
+  }
+  
+  .drop-menu{
+    color: white;
+    position: relative;
+    margin-left: 3px;
+    padding-top: 1px;
+  
+  }
+ 
+  .nav-btn{
+    position: relative;
+    left: 10px;
+    width: 50%;
+    height: 15%;
+    font-size: 70%;
+    margin: 2px;
+  }
+  .btn-dark{
+    margin-right: 2px;
+    
+  }
+  .fa-solid{
+    color:white;
+  }
+
+
+
+  .search-bar{
+  
+    background-size:cover; /* Ensures the background image covers the entire search bar */
+    background-position: center; /* Centers the background image */
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center; /* Vertically center the input field */
+    justify-content: center; /* Horizontally center the input field */
+    padding: 10px;
+    box-shadow: 0 4px 20px rgba(22, 22, 22, 0.7);
+    }
+
+.search-head{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(214, 220, 226);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 90px;
+  
+}
+.search-head-sub{
+  color: white;
+  text-align: center;
+  
+  
+}
+#search {
+  align-items: center;
+  justify-content: center;
+  width: 300px; /* Adjust as needed */
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  /* Optional: Add background color, border, etc. for better styling */
+  background-color: rgba(255, 255, 255, 0.8);
+
+  
+}
+
+}
+
+@media(width:768px){
+  .logo{
+    width: 30%;
+    }
+    
+    .nav-section{
+      background-color:black;
+      margin-top: -8px;
+      padding-bottom: 2px;
+    }
+    
+    .nav-items{
+      color: white;
+      position: relative;
+      margin-left: 1px;
+      padding-top: 2px;
+    
+    }
+    
+    .drop-menu{
+      color: white;
+      position: relative;
+      margin-left: 3px;
+      padding-top: 1px;
+    
+    }
+   
+    .nav-btn{
+      position: relative;
+      left: 10px;
+      width: 50%;
+      height: 15%;
+      font-size: 70%;
+      margin: 2px;
+    }
+    .btn-dark{
+      margin-right: 2px;
+      
+    }
+    .fa-solid{
+      color: white;
+    }
+  
+  
+  
+    .search-bar{
+    
+      background-size:cover; 
+      background-position: center; 
+      display: flex;
+      height: 500px;
+      width: 100%;
+      align-items: center; 
+      justify-content: center;
+      padding: 10px;
+      box-shadow: 0 4px 20px rgba(22, 22, 22, 0.7);
+      }
+  
+  .search-head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(214, 220, 226);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    
+  }
+  .search-head-sub{
+    color: rgb(191, 196, 202);
+    text-align: center;
+    
+    
+  }
+  #search {
+    align-items: center;
+    justify-content: center;
+    width: 600px; 
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+   
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    
+  }
+  
+  } 
+  
