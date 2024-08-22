@@ -271,3 +271,89 @@ width: 17%;
   
   } 
   
+@media(width:600px){
+  .logo{
+    width: 30%;
+    }
+    
+    .nav-section{
+      background-color:black;
+      margin-top: -8px;
+      padding-bottom: 2px;
+    }
+    
+    .nav-items{
+      color: white;
+      position: relative;
+      margin-left: 1px;
+      padding-top: 2px;
+    
+    }
+    
+    .drop-menu{
+      color: white;
+      position: relative;
+      margin-left: 3px;
+      padding-top: 1px;
+    
+    }
+   
+    .nav-btn{
+      position: relative;
+      left: 10px;
+      width: 50%;
+      height: 15%;
+      font-size: 70%;
+      margin: 2px;
+    }
+    .btn-dark{
+      margin-right: 2px;
+      
+    }
+    .fa-solid{
+      color: white;
+    }
+  
+  
+  
+    .search-bar{
+    
+      background-size:cover; 
+      background-position: center; 
+      display: flex;
+      height: 500px;
+      width: 100%;
+      align-items: center; 
+      justify-content: center;
+      padding: 10px;
+      box-shadow: 0 4px 20px rgba(22, 22, 22, 0.7);
+      }
+  
+  .search-head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(214, 220, 226);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    
+  }
+  .search-head-sub{
+    color: rgb(191, 196, 202);
+    text-align: center;
+    
+    
+  }
+  #search {
+    align-items: center;
+    justify-content: center;
+    width: 500px; 
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 35px;
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    
+  }
+  
+} 

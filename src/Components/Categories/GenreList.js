@@ -97,7 +97,7 @@ function GenreList() {
           <div className='col-lg-2 col-sm-4'>
             <h5>K-drama</h5>
           </div>
-         <h6 className='sign'>SignIn or SignUp to Watch</h6>
+         <h6 className='sign'>SignIn or SignUp</h6>
         </div>
       </section>
     </div>
