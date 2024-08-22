@@ -240,7 +240,7 @@
 /*Genre optimizing for tablet*/
 
 
-@media(width:768px){
+@media(width:720px){
   .genre{
  
     text-align: center;

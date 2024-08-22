@@ -96,7 +96,7 @@ width: 17%;
 
 /* Mobile optimization */
 
-@media(max-width:700px){
+@media(width:720px){
   
 .logo{
   width: 30%;
@@ -174,7 +174,7 @@ width: 17%;
   justify-content: center;
   width: 500px; /* Adjust as needed */
   padding: 10px;
-  margin-left: 40px;
+  margin-left: 50px;
   border: none;
   border-radius: 20px;
   /* Optional: Add background color, border, etc. for better styling */
