@@ -96,7 +96,7 @@ width: 17%;
 
 /* Mobile optimization */
 
-@media(max-width:600px){
+@media(max-width:420px){
   
 .logo{
   width: 30%;
@@ -272,7 +272,7 @@ width: 17%;
   
   } 
   
- @media(max-width:1024px){
+ /* @media(max-width:1024px){
   .logo{
     width: 30%;
     }
@@ -358,3 +358,4 @@ width: 17%;
   }
   
 } 
+*/
