@@ -96,7 +96,7 @@ width: 17%;
 
 /* Mobile optimization */
 
-@media(max-width:420px){
+@media(max-width:600px){
   
 .logo{
   width: 30%;
@@ -149,8 +149,7 @@ width: 17%;
     display: flex;
     height: 500px;
     width: 100%;
-    align-items: center; /* Vertically center the input field */
-    justify-content: center; /* Horizontally center the input field */
+    text-align: center;
     padding: 10px;
     box-shadow: 0 4px 20px rgba(22, 22, 22, 0.7);
     }
@@ -170,11 +169,11 @@ width: 17%;
   
 }
 #search {
-  align-items: center;
-  justify-content: center;
-  width: 500px; /* Adjust as needed */
-  padding: 10px;
-  margin-left: 50px;
+  
+  
+  width:280px; /* Adjust as needed */
+ 
+  text-align: center;
   border: none;
   border-radius: 20px;
   /* Optional: Add background color, border, etc. for better styling */
@@ -185,7 +184,7 @@ width: 17%;
 
 }
 
-@media(max-width:768px){
+@media(width:768px){
   .logo{
     width: 30%;
     }

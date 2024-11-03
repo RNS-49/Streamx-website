@@ -184,7 +184,7 @@
   font-family:'Times New Roman', Times, serif;
 }
 .col-lg-2:hover{
-  background-color: rgb(28, 4, 182);
+  background-color: rgb(39, 39, 39);
 }
 
 .sign{
@@ -196,6 +196,13 @@
 }
 .sign:hover{
   color: aliceblue;
+}
+
+.genre-card{
+  transition: transform 0.3px;
+}
+.genre-card:hover{
+  transform: scale(1.1);
 }
 /* Genre optimizing for mobile*/
 
@@ -228,6 +235,7 @@
   }
   
   .sign{
+    text-align: center;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(140, 143, 148, 0.676);
@@ -240,7 +248,7 @@
 /*Genre optimizing for tablet*/
 
 
-@media(width:720px){
+@media(width:768px){
   .genre{
  
     text-align: center;
@@ -270,7 +278,7 @@
   
 }
 
-@media(width:600px){
+@media(max-width:600px){
   .genre{
  
     text-align: center;
@@ -299,6 +307,7 @@
   }
   
   .sign{
+    text-align: center;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(140, 143, 148, 0.676);

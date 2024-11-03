@@ -29,7 +29,7 @@ p{
 
 /*optimizing for mobiles*/
 
-@media(width:320px){
+@media(max-width:600px){
   .bottom-bar{
     align-items: center;
     text-align: center;
